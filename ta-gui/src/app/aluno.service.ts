@@ -5,7 +5,7 @@ export class AlunoService {
   
    gravar(aluno: Aluno): Aluno | null {
     var result = null;
-    if (this.cpfNaoCadastrado(aluno.cpf) {
+    if (this.cpfNaoCadastrado(aluno.cpf)) {
       this.alunos.push(aluno);
       result = aluno;
     }
