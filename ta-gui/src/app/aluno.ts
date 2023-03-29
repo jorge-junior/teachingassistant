@@ -2,7 +2,7 @@ export class Aluno {
   nome!: string;
   cpf!: string;
   email!: string;
-  metas: Map<string,string>;
+  metas!: Map<string,string>;
 
   constructor() {
     this.clean();
