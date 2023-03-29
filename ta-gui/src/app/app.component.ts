@@ -10,6 +10,7 @@ export class AppComponent {
    aluno: Aluno = {nome: "", cpf: "", email: "", login: ""};
 }
 
+
 export class Aluno {
   nome!: string;
   cpf!: string;
