@@ -2,7 +2,6 @@ export class Aluno {
   nome!: string;
   cpf!: string;
   email!: string;
-  login!: string;
   metas: Map<string,string>;
 
   constructor() {
