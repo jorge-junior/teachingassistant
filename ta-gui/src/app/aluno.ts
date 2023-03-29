@@ -27,7 +27,7 @@ export class Aluno {
   cloneMetas(): Map<string,string> {
     var metas: Map<string,string> = new Map<string,string>();
     for (let key in this.metas) {
-      metas[key] = this.metas[key];
+      metas.set(key, value);
     }
     return metas;
   }
