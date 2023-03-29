@@ -7,7 +7,7 @@ import { NgModule } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-   aluno: Aluno = {name: "", cpf: "", email: ""};
+   aluno: Aluno = {nome: "", cpf: "", email: ""};
 }
 
 export class Aluno {
